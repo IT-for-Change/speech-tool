@@ -1,0 +1,7 @@
+pydub
+tqdm
+loguru
+torch
+torchaudio
+numpy
+requests
