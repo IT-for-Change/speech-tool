@@ -4,7 +4,7 @@ class AudioNLPConfig:
     def __init__(self):
         self.audio_dir = Path("audio_inputs")
         self.transcript_dir = Path("audio_transcripts")
-        self.model_name = "small"
+        self.model_name = "large-v3-turbo"
         self.chunk_size = 16384
 
 

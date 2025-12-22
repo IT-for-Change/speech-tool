@@ -20,7 +20,7 @@ class WhisperNLP:
 
         # Default local model path
         current_file = Path(__file__).resolve()
-        self.local_model_path = current_file.parent / "models" / "large-v3-turbo.pt"
+        self.local_model_path = current_file.parent /  ".cache" / "whisper" /"large-v3-turbo.pt"
 
     def load_models(self):
 
